@@ -34,7 +34,6 @@ my-app/
 │   ├── public/
 │   ├── package.json
 │   └── vite.config.js
-
 ```
 
 ##  Working
