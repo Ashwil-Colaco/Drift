@@ -1,0 +1,25 @@
+{
+  "name": "devflow-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+   "bin": {
+    "drift": "./bin/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "fs-extra": "^11.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "nodemon": "^3.1.14"
+  }
+}
