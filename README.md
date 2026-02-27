@@ -47,10 +47,9 @@ When you run `drift`, here's what happens:
 
 ##  Current Status
 
-Drift is currently in its **MVP stage**, heavily optimized for:
--  Rapid prototyping and hackathons.
--  Learning full-stack architecture.
--  Streamlining daily development workflows.
+Drift is currently in its **MVP stage**, optimized for:
+-  Prototyping, hackathons
+-  Learning full stack architecture.
 
 **Upcoming features:**
 - [ ] Database ORM integration presets (Prisma, Mongoose, etc.)
