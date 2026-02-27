@@ -1,6 +1,6 @@
 <div align="center">
   <h1> Drift</h1>
-  <p><strong>A super fast CLI to bootstrap full-stack React & Express apps in seconds.</strong></p>
+  <p><strong>A super fast CLI to bootstrap React & Node.js in seconds.</strong></p>
 </div>
 
 ##  Why Drift?
