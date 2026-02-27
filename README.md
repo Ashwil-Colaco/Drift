@@ -1,6 +1,6 @@
 <div align="center">
   <h1> Drift</h1>
-  <p><strong>A lightning-fast CLI to bootstrap full-stack React & Express apps in seconds.</strong></p>
+  <p><strong>A lightning fast CLI to bootstrap full-stack React & Express apps in seconds.</strong></p>
   <p>No manual wiring. No boilerplate copying. Just build.</p>
 </div>
 
