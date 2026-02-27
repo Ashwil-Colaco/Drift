@@ -6,25 +6,25 @@
 
 ---
 
-## ⚡ Why Drift?
+##  Why Drift?
 
 Setting up a modern full-stack application usually involves a tedious checklist. Drift entirely removes that friction by automating the initial setup process. 
 
 With **one command**, you get:
-- 🚀 **Express Backend**: Pre-configured with CORS and JSON parsing.
-- ⚡ **React + Vite Frontend**: Rapid and modern frontend development.
-- 🔗 **API Ready**: Frontend and backend are primed for seamless communication.
-- 🛠️ **Concurrent Dev Scripts**: Run your whole stack with a single `npm run dev` command.
-- 📁 **Clean Architecture**: Minimalist folder structure.
+-  **Express Backend**: Pre-configured with CORS and JSON parsing.
+-  **React + Vite Frontend**: Rapid and modern frontend development.
+-  **API Ready**: Frontend and backend are primed for seamless communication.
+-  **Concurrent Dev Scripts**: Run your whole stack with a single `npm run dev` command.
+-  **Clean Architecture**: Minimalist folder structure.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 Initialize your new full-stack application instantly:
 
 ```bash
-npx devflow-cli my-app
+drift my-app
 cd my-app
 npm run dev
 ```
@@ -33,9 +33,9 @@ npm run dev
 
 ---
 
-## 🏗️ What Drift Generates
+##  What Drift Generates
 
-A minimal, intuitive, and highly scalable project structure. 
+A minimal, intuitive and highly scalable project structure. 
 
 ```text
 my-app/
@@ -54,7 +54,7 @@ my-app/
 ---
 
 ## 🎮 How it works under the hood
-When you run `devflow-cli`, here's what happens:
+When you run `drift`, here's what happens:
 1. Creates a root folder with the given project name.
 2. Generates an Express backend (`server/`) with `dotenv` and `cors` installed.
 3. Generates a blazing-fast React frontend (`client/`) using `vite`.
@@ -65,9 +65,9 @@ When you run `devflow-cli`, here's what happens:
 ## 🛠️ Current Status & Roadmap
 
 Drift is currently in its **MVP stage**, heavily optimized for:
-- ✅ Rapid prototyping and hackathons.
-- ✅ Learning full-stack architecture.
-- ✅ Streamlining daily development workflows.
+-  Rapid prototyping and hackathons.
+-  Learning full-stack architecture.
+-  Streamlining daily development workflows.
 
 **Upcoming features:**
 - [ ] Database ORM integration presets (Prisma, Mongoose, etc.)
@@ -76,7 +76,7 @@ Drift is currently in its **MVP stage**, heavily optimized for:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We love community contributions! If you have a suggestion or found a bug:
 1. Fork the repository.
@@ -87,6 +87,6 @@ We love community contributions! If you have a suggestion or found a bug:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
