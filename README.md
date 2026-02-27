@@ -45,17 +45,6 @@ When you run `drift`, here's what happens:
 3. Generates a blazing-fast React frontend (`client/`) using `vite`.
 4. Bootstraps a root `package.json` that uses `concurrently` to run both the frontend and backend simultaneously using the `npm run dev` command.
 
-##  Current Status
-
-Drift is currently in its **MVP stage**, optimized for:
--  Prototyping, hackathons
--  Learning full stack architecture.
-
-**Upcoming features:**
-- [ ] Database ORM integration presets (Prisma, Mongoose, etc.)
-- [ ] Production build and unified deployment scripts.
-- [ ] Tailwind CSS pre-configuration options.
-
 ##  Contributing
 
 Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details on how to get started.
