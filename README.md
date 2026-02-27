@@ -53,7 +53,7 @@ my-app/
 
 ---
 
-## 🎮 How it works under the hood
+##  How it works under the hood
 When you run `drift`, here's what happens:
 1. Creates a root folder with the given project name.
 2. Generates an Express backend (`server/`) with `dotenv` and `cors` installed.
@@ -62,7 +62,7 @@ When you run `drift`, here's what happens:
 
 ---
 
-## 🛠️ Current Status & Roadmap
+##  Current Status
 
 Drift is currently in its **MVP stage**, heavily optimized for:
 -  Rapid prototyping and hackathons.
