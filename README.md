@@ -1,109 +1,92 @@
-# Drift
-
-> Zero-config full-stack starter for Express + React (Vite).
-
-Drift is a lightweight CLI that bootstraps a ready-to-run full-stack development environment in seconds.  
-No manual wiring. No boilerplate copying. Just build.
-
----
-
-## Why Drift?
-
-Setting up a full-stack project usually means:
-
-- Creating backend structure  
-- Setting up Vite  
-- Connecting API routes  
-- Configuring dev scripts  
-- Installing dependencies  
-- Fixing small wiring issues  
-
-Drift removes that friction.
-
-You get:
-
-- Express backend  
-- React + Vite frontend  
-- Preconfigured dev scripts  
-- Clean folder structure  
-- Frontend ↔ backend communication ready  
-
-All from one command.
+<div align="center">
+  <h1>🌊 Drift</h1>
+  <p><strong>A lightning-fast CLI to bootstrap full-stack React & Express apps in seconds.</strong></p>
+  <p>No manual wiring. No boilerplate copying. Just build.</p>
+</div>
 
 ---
 
-## Quick Start
+## ⚡ Why Drift?
+
+Setting up a modern full-stack application usually involves a tedious checklist. Drift entirely removes that friction by automating the initial setup process. 
+
+With **one command**, you get:
+- 🚀 **Express Backend**: Pre-configured with CORS and JSON parsing.
+- ⚡ **React + Vite Frontend**: Rapid and modern frontend development.
+- 🔗 **API Ready**: Frontend and backend are primed for seamless communication.
+- 🛠️ **Concurrent Dev Scripts**: Run your whole stack with a single `npm run dev` command.
+- 📁 **Clean Architecture**: Minimalist folder structure.
+
+---
+
+## 🚀 Quick Start
+
+Initialize your new full-stack application instantly:
 
 ```bash
-npx create-drift-app my-app
+npx devflow-cli my-app
 cd my-app
-npm install
 npm run dev
 ```
 
-That’s it.
-
-Your full-stack app is running.
+*(This command uses `npx` to execute `drift` and set up the environment for you)*
 
 ---
 
-## What Drift Generates
+## 🏗️ What Drift Generates
 
-```
+A minimal, intuitive, and highly scalable project structure. 
+
+```text
 my-app/
- ├── server/        # Express backend
- ├── client/        # React (Vite) frontend
- ├── package.json
- └── README.md
+├── server/
+│   ├── index.js          # Express app entry point
+│   ├── package.json      # Backend setup & scripts
+│   └── .env              # Environment config
+├── client/               # Standard Vite React frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+└── package.json          # Root configuration for running client & server simultaneously
 ```
 
-Pre-wired and ready for development.
+---
+
+## 🎮 How it works under the hood
+When you run `devflow-cli`, here's what happens:
+1. Creates a root folder with the given project name.
+2. Generates an Express backend (`server/`) with `dotenv` and `cors` installed.
+3. Generates a blazing-fast React frontend (`client/`) using `vite`.
+4. Bootstraps a root `package.json` that uses `concurrently` to run both the frontend and backend simultaneously using the `npm run dev` command.
 
 ---
 
-## Current Status
+## 🛠️ Current Status & Roadmap
 
-Drift is currently in MVP stage.
+Drift is currently in its **MVP stage**, heavily optimized for:
+- ✅ Rapid prototyping and hackathons.
+- ✅ Learning full-stack architecture.
+- ✅ Streamlining daily development workflows.
 
-It is optimized for:
-
-- Development workflow  
-- Rapid prototyping  
-- Learning full-stack architecture  
-
-Production build and deployment support will be added in future versions.
-
----
-
-## Philosophy
-
-- Zero friction  
-- Minimal configuration  
-- Opinionated but flexible  
-- Developer speed first  
-
-Drift doesn’t try to do everything.  
-It just gets you building faster.
+**Upcoming features:**
+- [ ] Database ORM integration presets (Prisma, Mongoose, etc.)
+- [ ] Production build and unified deployment scripts.
+- [ ] Tailwind CSS pre-configuration options.
 
 ---
 
-## Roadmap
+## 🤝 Contributing
 
-- Production build support  
-- TypeScript option  
-- Database template option  
-- Auth starter template  
-- Docker support  
-
----
-
-## Contributing
-
-Drift is open to improvements and ideas.  
-If you have suggestions, open an issue or submit a PR.
+We love community contributions! If you have a suggestion or found a bug:
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes.
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a Pull Request!
 
 ---
 
-## License
+## 📄 License
 
-MIT
+This project is licensed under the MIT License.
