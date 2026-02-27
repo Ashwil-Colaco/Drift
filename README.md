@@ -3,8 +3,6 @@
   <p><strong>A super fast CLI to bootstrap full-stack React & Express apps in seconds.</strong></p>
 </div>
 
----
-
 ##  Why Drift?
 
 Setting up a modern full-stack application usually involves a tedious checklist. Drift entirely removes that friction by automating the initial setup process. 
@@ -16,8 +14,6 @@ With **one command**, you get:
 -  **Concurrent Dev Scripts**: Run your whole stack with a single `npm run dev` command.
 -  **Clean Architecture**: Minimalist folder structure.
 
----
-
 ##  Quick Start
 
 ```bash
@@ -25,8 +21,6 @@ drift my-app
 cd my-app
 npm run dev
 ```
-
----
 
 ##  What Drift Generates
 
@@ -44,8 +38,6 @@ my-app/
 └── package.json          # Root configuration for running client & server simultaneously
 ```
 
----
-
 ##  How it works under the hood
 
 When you run `drift`, here's what happens:
@@ -53,8 +45,6 @@ When you run `drift`, here's what happens:
 2. Generates an Express backend (`server/`) with `dotenv` and `cors` installed.
 3. Generates a blazing-fast React frontend (`client/`) using `vite`.
 4. Bootstraps a root `package.json` that uses `concurrently` to run both the frontend and backend simultaneously using the `npm run dev` command.
-
----
 
 ##  Current Status
 
@@ -67,8 +57,6 @@ Drift is currently in its **MVP stage**, heavily optimized for:
 - [ ] Database ORM integration presets (Prisma, Mongoose, etc.)
 - [ ] Production build and unified deployment scripts.
 - [ ] Tailwind CSS pre-configuration options.
-
----
 
 ##  Contributing
 
