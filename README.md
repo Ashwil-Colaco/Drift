@@ -16,6 +16,16 @@ With **one command**, you get:
 ##  Quick Start
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/Ashwil-Colaco/drift.git
+cd drift
+
+# 2. Install dependencies & link the package globally
+npm install
+npm link
+
+# 3. You can now use 'drift' anywhere!
+cd ..
 drift my-app
 cd my-app
 npm run dev
