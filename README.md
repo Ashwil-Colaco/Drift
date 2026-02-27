@@ -37,7 +37,7 @@ my-app/
 └── package.json          # Root configuration for running client & server simultaneously
 ```
 
-##  How it works under the hood
+##  Working
 
 When you run `drift`, here's what happens:
 1. Creates a root folder with the given project name.
