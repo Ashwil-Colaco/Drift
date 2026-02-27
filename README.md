@@ -20,11 +20,11 @@ With **one command**, you get:
 git clone https://github.com/Ashwil-Colaco/drift.git
 cd drift
 
-# 2. Install dependencies & link the package globally
+# 2. Install dependencies
 npm install
 npm link
 
-# 3. You can now use 'drift' anywhere!
+# 3. You can now use drift anywhere
 cd ..
 drift my-app
 cd my-app
