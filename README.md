@@ -17,7 +17,7 @@ With **one command**, you get:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Ashwil-Colaco/drift.git
+git clone https://github.com/<username>/drift.git
 cd drift
 
 # 2. Install dependencies
