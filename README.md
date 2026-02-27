@@ -34,7 +34,7 @@ my-app/
 │   ├── public/
 │   ├── package.json
 │   └── vite.config.js
-└── package.json          # Root configuration for running client & server simultaneously
+
 ```
 
 ##  Working
