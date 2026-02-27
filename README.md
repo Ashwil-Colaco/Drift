@@ -20,15 +20,11 @@ With **one command**, you get:
 
 ##  Quick Start
 
-Initialize your new full-stack application instantly:
-
 ```bash
 drift my-app
 cd my-app
 npm run dev
 ```
-
-*(This command uses `npx` to execute `drift` and set up the environment for you)*
 
 ---
 
@@ -51,6 +47,7 @@ my-app/
 ---
 
 ##  How it works under the hood
+
 When you run `drift`, here's what happens:
 1. Creates a root folder with the given project name.
 2. Generates an Express backend (`server/`) with `dotenv` and `cors` installed.
