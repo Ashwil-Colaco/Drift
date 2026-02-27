@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌊 Drift</h1>
+  <h1> Drift</h1>
   <p><strong>A lightning-fast CLI to bootstrap full-stack React & Express apps in seconds.</strong></p>
   <p>No manual wiring. No boilerplate copying. Just build.</p>
 </div>
@@ -35,14 +35,12 @@ npm run dev
 
 ##  What Drift Generates
 
-A minimal, intuitive and highly scalable project structure. 
-
 ```text
 my-app/
 ├── server/
 │   ├── index.js          # Express app entry point
 │   ├── package.json      # Backend setup & scripts
-│   └── .env              # Environment config
+│   
 ├── client/               # Standard Vite React frontend
 │   ├── src/
 │   ├── public/
@@ -78,12 +76,7 @@ Drift is currently in its **MVP stage**, heavily optimized for:
 
 ##  Contributing
 
-We love community contributions! If you have a suggestion or found a bug:
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/amazing-feature`).
-3. Commit your changes.
-4. Push to the branch (`git push origin feature/amazing-feature`).
-5. Open a Pull Request!
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details on how to get started.
 
 ---
 
