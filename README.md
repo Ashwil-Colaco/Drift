@@ -5,7 +5,7 @@
 
 ##  Why Drift?
 
-Setting up a modern full-stack application usually involves a tedious checklist. Drift entirely removes that friction by automating the initial setup process. 
+Setting up a modern full stack application usually involves a tedious checklist. Drift entirely removes that friction by automating the initial setup process. 
 
 With **one command**, you get:
 -  **Express Backend**: Pre-configured with CORS and JSON parsing.
