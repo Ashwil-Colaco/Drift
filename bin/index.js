@@ -89,6 +89,22 @@ console.log("Frontend setup complete.\n");
 process.chdir("client");
 execSync("npm install", { stdio: "inherit" });
 
+const viteConfigPath = path.join(process.cwd(), "vite.config.js");
+let viteConfig = fs.readFileSync(viteConfigPath, "utf-8");
+
+viteConfig = viteConfig.replace( // add proxy to vite config
+  /server:\s*{[^}]*}/,
+  `server: {
+    proxy: {
+      "/api": "http://localhost:3000"
+    }
+  }`
+);
+
+fs.writeFileSync(viteConfigPath, viteConfig);
+
+console.log("Vite proxy configuration added to frontend.\n");
+
 process.chdir(root);
 
 
