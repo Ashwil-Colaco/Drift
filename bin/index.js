@@ -104,7 +104,6 @@ $1,
   }`
   );
 } else {
-  // If server doesn't exist, inject it before the final export
   viteConfig = viteConfig.replace(
     /export\s+default\s+defineConfig\(\s*{/,
     `export default defineConfig({
