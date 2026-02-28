@@ -36,13 +36,21 @@ npm run dev
 ```text
 my-app/
 ├── server/
+│   ├── node_modules/
 │   ├── index.js          # Express app entry point
+│   ├── package-lock.json
 │   ├── package.json      # Backend setup & scripts
 │   
 ├── client/               # Standard Vite React frontend
-│   ├── src/
+│   ├── node_modules/
 │   ├── public/
+│   ├── src/
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
 │   ├── package.json
+│   ├── README.md
 │   └── vite.config.js
 ```
 
