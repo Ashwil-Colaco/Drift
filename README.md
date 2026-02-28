@@ -9,7 +9,7 @@ Setting up a modern full stack application usually involves a tedious checklist.
 
 With **one command**, you get:
 -  **Express Backend**: Pre-configured with CORS and JSON parsing.
--  **React(vite) Frontend**: Rapid and modern frontend development.
+-  **React(vite) Frontend**: Fully set up and ready for development.
 -  **Concurrent Dev Scripts**: Run your whole stack with a single `npm run dev` command.
 -  **Clean Architecture**: Minimalist folder structure.
 
