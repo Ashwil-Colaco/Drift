@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> Drift</h1>
+  <img src="logo.png" alt="Drift Logo" width="300" style="border-radius: 50%; margin-bottom: 20px;" />
   <p><strong>A super fast CLI to bootstrap React & Node.js in seconds.</strong></p>
 </div>
 
