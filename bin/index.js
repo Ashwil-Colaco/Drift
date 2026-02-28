@@ -92,14 +92,29 @@ execSync("npm install", { stdio: "inherit" });
 const viteConfigPath = path.join(process.cwd(), "vite.config.js");
 let viteConfig = fs.readFileSync(viteConfigPath, "utf-8");
 
-viteConfig = viteConfig.replace( // add proxy to vite config
-  /server:\s*{[^}]*}/,
-  `server: {
+
+if (/server\s*:\s*{/.test(viteConfig)) {   // If server exists, just add proxy
+  viteConfig = viteConfig.replace(
+    /server\s*:\s*{([^}]*)}/,
+    `server: {
+$1,
     proxy: {
       "/api": "http://localhost:3000"
     }
   }`
-);
+  );
+} else {
+  // If server doesn't exist, inject it before the final export
+  viteConfig = viteConfig.replace(
+    /export\s+default\s+defineConfig\(\s*{/,
+    `export default defineConfig({
+  server: {
+    proxy: {
+      "/api": "http://localhost:3000"
+    }
+  },`
+  );
+}
 
 fs.writeFileSync(viteConfigPath, viteConfig);
 
