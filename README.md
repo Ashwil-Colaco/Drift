@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="logo.png" width="300"/>
-  <h1>Drift</h1>
+  <img src="logo.png" width="300"/><br><br>
   <p><strong>A super fast CLI to bootstrap React & Node.js in seconds.</strong></p>
 </div>
 
