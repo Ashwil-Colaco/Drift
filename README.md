@@ -59,7 +59,7 @@ my-app/
 When you run `drift`, here's what happens:
 1. Creates a root folder with the given project name.
 2. Generates an Express backend (`server/`) with `dotenv` and `cors` installed.
-3. Generates a blazing-fast React frontend (`client/`) using `vite`.
+3. Generates a React frontend (`client/`) using `vite`.
 4. Bootstraps a root `package.json` that uses `concurrently` to run both the frontend and backend simultaneously using the `npm run dev` command.
 
 ##  Contributing
